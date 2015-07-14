@@ -1,0 +1,9 @@
+<h1> Edit Page </h1>
+
+<%= form_for @yoyo do |f| %>
+    <%= f.label "Name" %>
+    <%= f.text_field :name %><br />
+    <%= f.label "Image Url" %>
+    <%= f.text_field :url %><br />
+    <%= f.submit "Edit Yoyo" %>
+<% end %>
